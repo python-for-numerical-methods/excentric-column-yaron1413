@@ -11,7 +11,7 @@ def find_critical_load(L, E, A, r, c, e, sigma_allow):
     Return: העומס P בניוטון (float)
     """
     # כתבו כאן את הקוד
-import numpy as np
+importnumpy as np
 from scipy.optimize import bisect
 
 def find_critical_load(L, E, A, r, c, e, sigma_allow):
